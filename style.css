@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img img {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.fire-gif {
+    width: 460px;
+    height: 460px;
+    transform: scale(0) rotate(0deg);
+    transition: all 0.7s;
+}
+
+.main-img {
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
